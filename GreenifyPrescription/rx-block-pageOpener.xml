@@ -1,0 +1,13 @@
+<!-- WIFI万能钥匙 play版 -->
+<prescription type="activity" package="com.halo.wifikey.wifilocating" sender="any">
+	<intent-filter>
+		<action name="wifi.intent.action.BROWSER" />
+		<action name="android.intent.action.VIEW" />
+		<cat name="android.intent.category.BROWSABLE" />
+		<cat name="android.intent.category.DEFAULT" />
+		<scheme name="file" />
+		<scheme name="http" />
+		<scheme name="https" />
+		<scheme name="wkb" />
+	</intent-filter>
+</prescription>
